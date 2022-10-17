@@ -9,3 +9,7 @@
 **Какие технологии были использованы**
 
 HTML, CSS, Flexbox, Grid
+
+**Ссылка на сайт проекта** 
+
+[Путешествия по России](https://gluwkov.github.io/russian-travel/)
