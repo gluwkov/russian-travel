@@ -150,33 +150,32 @@
 }
 
 @media (max-width: 767px) {
-    .root {
-        max-width: 320px;
-    }
-
+    
     .header {
         margin: 16px auto 0;
-        max-width: 288px;
+        width: 90%;
     }
 
     .lead__title {
         font-size: 40px;
         line-height: 44px;
+        width: 90%;
     }
 
     .lead__subtitle {
         margin: 16px auto 40px;
         font-size: 16px;
         line-height: 20px;
+        width: 90%;
     }
 
     .lead__caption {
-        max-width: 288px;
+        width: 90%;
     }
 
     .intro {
         padding-top: 64px;
-        max-width: 288px;
+        width: 90%;
     }
 
     .intro__title {
@@ -186,12 +185,12 @@
 
     .photo-grid {
         padding: 64px 0;
-        max-width: 288px;
+        width: 90%;
         gap: 12px;
     }
 
     .places {
-        max-width: 320px;
+        width: 100%;
         gap: 50px;
     }
 
@@ -202,14 +201,14 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        min-width: 288px;
+        width: 90%;
         margin: auto;
     }
 
     .place__link-container {
         grid-column: 1;
         grid-row: 2;
-        min-width: 288px;
+        width: 90%;
         margin: 32px auto;
     }
 
@@ -220,7 +219,7 @@
     .place__text {
         grid-column: 1;
         grid-row: 4;
-        max-width: 288px;
+        width: 90%;
         margin: 32px auto 25px;
     }
 
@@ -241,13 +240,13 @@
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        max-width: 288px;
+        width: 90%;
     }
 
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        max-width: 288px;
+        width: 90%;
         margin: 16px auto 0;
     }
 
