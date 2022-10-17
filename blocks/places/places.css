@@ -5,3 +5,22 @@
     display: grid;
     gap: 80px;
 }
+
+@media (max-width: 1279px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .places {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .places {
+        width: 100%;
+        gap: 50px;
+    }
+}

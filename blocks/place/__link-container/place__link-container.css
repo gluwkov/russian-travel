@@ -5,3 +5,12 @@
     flex-direction: column;
     gap: 12px;
 }
+
+@media (max-width: 767px) {
+    .place__link-container {
+        grid-column: 1;
+        grid-row: 2;
+        width: 90%;
+        margin: 32px auto;
+    }
+}

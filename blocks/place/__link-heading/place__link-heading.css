@@ -1,6 +1,4 @@
 .place__link-heading {
-    
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -8,4 +6,11 @@
     letter-spacing: 2px;
     color: #AAAAAA;
     margin: 0;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+    .place__link-heading {
+        line-height: 12px;
+    }
 }
