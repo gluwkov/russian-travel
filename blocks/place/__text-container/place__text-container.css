@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .place__text-container{
         margin-top: 32px;
     }
